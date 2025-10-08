@@ -20,8 +20,7 @@ body{
     padding: 40px;
     align-items: center;
     border-radius: 10px;
-    background-color: rgb(114, 114, 225);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
 }
 .profil img {
     border-radius: 50%;
