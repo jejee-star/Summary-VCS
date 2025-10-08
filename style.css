@@ -14,7 +14,7 @@ body{
     text-align: center;
     font-size: xx-large;
 }
-.profil p {
+.head p {
     text-align: justify;
     font-size: xx-large;
     padding: 40px;
@@ -22,7 +22,7 @@ body{
     border-radius: 10px;
     
 }
-.profil img {
+.head img {
     border-radius: 50%;
     align-content: center;
     height: 320px;
@@ -34,7 +34,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
-.kartu-aktivitas {
+.card {
     text-align: center;
     display: flexbox;
     padding: 4px;
@@ -44,6 +44,6 @@ body{
     box-shadow: 0 4px 8px 0 rgba(74, 155, 185, 0.2);
     width: 470px;
 }
-.kartu-aktivitas :hover{
+.card :hover{
     color: rgb(77, 73, 69);
 }
