@@ -37,10 +37,11 @@ body{
 .kartu-aktivitas {
     text-align: center;
     display: flexbox;
-    background-color: rgb(243, 201, 229);
     padding: 4px;
-    border: 1px dashed #ddd;
+    border: 1px dashed #322d2d;
     border-radius: 20px;
+    background-color: rgb(114, 114, 225);
+    box-shadow: 0 4px 8px 0 rgba(74, 155, 185, 0.2);
     width: 470px;
 }
 .kartu-aktivitas :hover{
