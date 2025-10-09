@@ -2,10 +2,13 @@ body{
     align-items: center;
 }
 #header {
-    background-color: rgb(89, 175, 255);
+    background-color: #888;
     padding: 8px;
     text-align: center;
     font-size: xx-large;
+    margin: 0;
+    box-sizing: border-box;
+
 }
 .container {
     display: flex;
@@ -20,6 +23,7 @@ body{
     padding: 40px;
     align-items: center;
     border-radius: 10px;
+    background-color: #888;
     
 }
 .head img {
@@ -34,6 +38,14 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
+.galeri h2 {
+    background-color: #322d2d;
+    max-height: 120px;
+    max-width: 500px;
+    border-radius: 20%;
+    align-content: center;
+    color: aliceblue;
+}
 .card {
     text-align: center;
     display: flexbox;
@@ -43,7 +55,34 @@ body{
     background-color: rgb(114, 114, 225);
     box-shadow: 0 4px 8px 0 rgba(74, 155, 185, 0.2);
     width: 470px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-content: center;
 }
 .card :hover{
     color: rgb(77, 73, 69);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+.card-content {
+    padding: 20px;
+}
+.card-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    color: #888;
+}
+.card-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
